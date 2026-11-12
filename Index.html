@@ -1,1 +1,208 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARKA | Luxury Body Wash</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f7f5ed;color:#263b30}
+nav{display:flex;justify-content:space-between;align-items:center;
+padding:22px 8%;background:#f7f5ed;position:sticky;top:0;z-index:5}
+.logo{font-size:27px;letter-spacing:5px;font-weight:800}
+nav a{color:#263b30;text-decoration:none;margin-left:22px;font-size:13px}
+.hero{min-height:590px;padding:75px 9%;display:grid;
+grid-template-columns:1fr 1fr;align-items:center;gap:40px;
+background:linear-gradient(120deg,#e9e6d9,#dce5d8)}
+.eyebrow{letter-spacing:4px;font-size:11px;color:#647b63}
+h1{font-size:clamp(48px,6vw,78px);line-height:1.04;
+margin:22px 0;font-family:Georgia,serif;font-weight:400}
+.hero p{line-height:1.8;max-width:440px;color:#526052}
+.btn{display:inline-block;background:#284c38;color:white;
+padding:16px 27px;text-decoration:none;border:0;cursor:pointer;
+margin-top:25px;font-size:12px;letter-spacing:2px}
+.visual{height:430px;display:flex;align-items:center;justify-content:center;
+background:radial-gradient(ellipse,#c5d0b9,#e9e6d9 70%)}
+.bottle{width:180px;height:310px;background:linear-gradient(100deg,#315541,#52745b,#244632);
+border-radius:30px 30px 23px 23px;position:relative;
+box-shadow:20px 25px 40px #53634b55;display:flex;align-items:center;
+justify-content:center;color:#f4eedc;text-align:center}
+.bottle:before{content:"";position:absolute;top:-43px;width:65px;height:48px;
+background:#263e31;border-radius:8px 8px 3px 3px}
+.bottle:after{content:"";position:absolute;top:-51px;width:43px;height:9px;
+background:#b5a57c;border-radius:4px}
+.label{border:1px solid #b8c7a9;padding:28px 12px;width:140px}
+.label strong{font-family:Georgia;font-size:25px;letter-spacing:3px}
+.label small{display:block;margin-top:15px;letter-spacing:2px;font-size:9px}
+section{padding:85px 9%}
+.center{text-align:center}
+h2{font-family:Georgia,serif;font-size:42px;font-weight:400;margin-bottom:18px}
+.intro{color:#758074;line-height:1.8}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin-top:45px}
+.benefit{padding:35px 25px;background:#eeeee5;text-align:center}
+.benefit span{font-size:32px}
+.benefit h3{font-family:Georgia;font-size:22px;margin:18px 0}
+.benefit p{font-size:14px;color:#718071;line-height:1.7}
+.product{background:#e6e9dc;display:grid;grid-template-columns:1fr 1fr;
+gap:50px;align-items:center}
+.product-art{height:390px;display:flex;align-items:center;justify-content:center;
+background:#d3ddcc}
+.product-info p{line-height:1.8;color:#647263;margin:15px 0}
+select{padding:13px;border:1px solid #9ba993;background:transparent;
+width:100%;max-width:300px;color:#263b30;margin-top:10px}
+.price{font-size:27px;margin-top:20px}
+.reviews{background:#f0eee5}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);
+gap:20px;margin-top:40px}
+.review{background:#fff;padding:30px;line-height:1.8;color:#637065}
+.review strong{display:block;margin-top:20px;color:#263b30}
+.banner{background:#284c38;color:white;text-align:center;padding:75px 20px}
+.banner p{color:#d4dfd1;margin-top:15px}
+footer{text-align:center;padding:35px;background:#1d3528;color:#e8eddf;
+font-size:12px;line-height:2}
+.reveal{opacity:0;transform:translateY(25px);transition:.8s}
+.reveal.show{opacity:1;transform:translateY(0)}
+@media(max-width:700px){
+nav{padding:18px 5%}nav a{margin-left:9px;font-size:10px}
+.hero,.product{grid-template-columns:1fr;padding:55px 7%}
+.visual{height:350px}.benefits,.review-grid{grid-template-columns:1fr}
+section{padding:65px 7%}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">ARKA.</div>
+<div>
+<a href="#home">HOME</a>
+<a href="#benefits">BENEFITS</a>
+<a href="#shop">SHOP</a>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<div>
+<div class="eyebrow">THE ART OF EVERYDAY CARE</div>
+<h1>Make every shower a ritual.</h1>
+<p>Discover a refreshing body wash experience that leaves
+your skin feeling clean, soft and beautifully refreshed.</p>
+<a href="#shop" class="btn">DISCOVER ARKA →</a>
+</div>
+<div class="visual">
+<div class="bottle">
+<div class="label">
+<strong>ARKA</strong>
+<small>BOTANICAL<br>BODY WASH<br><br>500 ML</small>
+</div>
+</div>
+</div>
+</header>
+
+<section id="benefits" class="center reveal">
+<div class="eyebrow">WHY ARKA</div>
+<h2>Care that feels different.</h2>
+<p class="intro">A little everyday luxury for your skin.</p>
+<div class="benefits">
+<div class="benefit">
+<span>🌿</span>
+<h3>Botanical Inspired</h3>
+<p>A refreshing skincare experience inspired by nature.</p>
+</div>
+<div class="benefit">
+<span>💧</span>
+<h3>Refreshing Cleanse</h3>
+<p>Enjoy a refreshing cleanse as part of your daily routine.</p>
+</div>
+<div class="benefit">
+<span>✨</span>
+<h3>Everyday Luxury</h3>
+<p>Turn your regular shower into a moment of self-care.</p>
+</div>
+</div>
+</section>
+
+<section class="product" id="shop">
+<div class="product-art">
+<div class="bottle">
+<div class="label">
+<strong>ARKA</strong>
+<small id="bottleName">FRESH BOTANICAL<br>BODY WASH<br><br>500 ML</small>
+</div>
+</div>
+</div>
+<div class="product-info reveal">
+<div class="eyebrow">MEET YOUR NEW FAVOURITE</div>
+<h2>Find your fresh.</h2>
+<p>Choose your favourite fragrance and enjoy a refreshing
+body wash experience every day.</p>
+<label for="variant">Choose your fragrance:</label><br>
+<select id="variant" onchange="changeVariant()">
+<option value="Fresh Botanical">Fresh Botanical</option>
+<option value="Rose Bloom">Rose Bloom</option>
+<option value="Citrus Burst">Citrus Burst</option>
+</select>
+<div class="price">₹299 <small style="font-size:13px">/ 500 ml</small></div>
+<a class="btn" id="buy" href="#" onclick="buyNow(event)">
+BUY NOW →
+</a>
+<p style="font-size:11px">Sample price. Update before publishing.</p>
+</div>
+</section>
+
+<section class="reviews center reveal">
+<div class="eyebrow">THE ARKA EXPERIENCE</div>
+<h2>A little love for your skin.</h2>
+<div class="review-grid">
+<div class="review">"Love the refreshing feel and elegant experience."
+<strong>— Customer review sample</strong></div>
+<div class="review">"A lovely addition to my everyday shower routine."
+<strong>— Customer review sample</strong></div>
+<div class="review">"The fragrance concept is absolutely beautiful."
+<strong>— Customer review sample</strong></div>
+</div>
+</section>
+
+<div class="banner">
+<h2>Refresh. Rejuvenate. Repeat.</h2>
+<p>Your daily ritual starts with ARKA.</p>
+<a href="#shop" class="btn" style="background:#e9e6d9;color:#284c38">
+SHOP NOW
+</a>
+</div>
+
+<footer>
+<div class="logo">ARKA.</div>
+<p>Everyday care. Elevated.</p>
+<p>© 2026 ARKA BODY WASH. All rights reserved.</p>
+<p>Contact: your-email@example.com</p>
+</footer>
+
+<script>
+function changeVariant(){
+ const v=document.getElementById("variant").value;
+ document.getElementById("bottleName").innerHTML=
+ v.toUpperCase()+"<br>BODY WASH<br><br>500 ML";
+}
+function buyNow(e){
+ e.preventDefault();
+ const v=document.getElementById("variant").value;
+ const phone="9923459943"; // Replace with your WhatsApp number
+ const msg=encodeURIComponent(
+ "Hello! I would like to order ARKA "+v+" Body Wash (500 ml)."
+ );
+ window.open("https://wa.me/"+phone+"?text="+msg,"_blank");
+}
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(entry=>{
+ if(entry.isIntersecting)entry.target.classList.add("show");
+ });
+},{threshold:.15});
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+</script>
+
+</body>
+</html>
+
